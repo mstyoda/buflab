@@ -5,7 +5,7 @@ hehe.o:     file format elf32-i386
 Disassembly of section .text:
 
 00000000 <.text>:
-   0:	a1 38 e1 04 08       	mov    0x804e138,%eax
-   5:	a3 40 e1 04 08       	mov    %eax,0x804e140
-   a:	68 e9 8b 04 08       	push   $0x8048be9
+   0:	b8 9c a4 34 6a       	mov    $0x6a34a49c,%eax
+   5:	bd 40 35 68 55       	mov    $0x55683540,%ebp
+   a:	68 57 8c 04 08       	push   $0x8048c57
    f:	c3                   	ret    
